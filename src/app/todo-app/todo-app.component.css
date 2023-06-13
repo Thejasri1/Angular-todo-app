@@ -1,0 +1,73 @@
+
+.flexContainer {
+    display: flex;
+}
+
+.successBtn {
+    background: green;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+   font-family:serif;
+
+}
+.deleteBtn {
+    background: maroon;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+   font-family:serif;
+
+}
+
+.todoSection {
+    background-color: brown;
+    padding: 10px;
+    width: 25vw;
+    height: 100vh;
+}
+.primary {
+    color: whitesmoke;
+    background-color: blanchedalmond;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 25vw;
+    cursor:all-scroll;
+}
+
+.cardSection{
+    background-image: linear-gradient(to right, #283655 , #000);
+    width: 75vw;
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 30px;
+}
+.headings{
+    color: blanchedalmond;
+    font-weight: 500;
+   font-family:serif;
+
+}
+.todoText{
+    color: black;
+   font-family:serif;
+
+}
+.spaceBetween{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 20vw;
+}
